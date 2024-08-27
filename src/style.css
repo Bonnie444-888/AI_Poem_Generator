@@ -1,0 +1,75 @@
+body {
+  background-color: #975a5e;
+  color: #feffdf;
+  font-family: "Zilla Slab", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+  background-color: #f96d00;
+  border-radius: 12px;
+  padding: 30px 10px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+h1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #feffdf;
+}
+
+form {
+  padding: 30px;
+  background-color: #feffdf;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 5px 7px 12px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+.prompt {
+  padding: 10px;
+  border: 1px solid #f3cba5;
+  width: 80%;
+  font-size: 16px;
+  border-radius: 25px;
+  line-height: 20px;
+  color: #975a5e;
+}
+.submit_button {
+  margin-left: 10px;
+  background-color: #975a5e;
+  color: #feffdf;
+  border: none;
+  width: 150px;
+  font-size: 16px;
+  border-radius: 25px;
+  padding: 14px 24px;
+}
+
+.poem {
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #feffdf;
+  box-shadow: 5px 7px 12px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-left: 3px solid #61b292;
+  line-height: 2;
+  color: #975a5e;
+  border-radius: 10px;
+}
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+a {
+  color: #1d1716;
+  font-weight: 600;
+}
