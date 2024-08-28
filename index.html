@@ -21,19 +21,22 @@
       </header>
 
       <main>
-        <form action="" id="poem-generator-form">
-          <input
-            type="text"
-            placeholder="Enter poem topic"
-            autofocus
-            required
-            autocomplete="off"
-            class="prompt"
-            id="user-prompt"
-          />
-          <input type="submit" class="submit_button" />
-        </form>
-        <div class="poem" id="poem"></div>
+        <div class="form-container">
+          <form action="" id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Enter topic for the poem you want to generate"
+              autofocus
+              required
+              autocomplete="off"
+              class="prompt"
+              id="user-prompt"
+            />
+            <input type="submit" class="submit_button" />
+          </form>
+          <div class="hint">i.e love, roses, blue</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
       <footer>
         This AI project was coded with 💕 by
