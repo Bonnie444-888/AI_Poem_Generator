@@ -63,6 +63,13 @@ form {
   color: #975a5e;
   border-radius: 10px;
 }
+
+.poem strong {
+  color: #f96d00;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
 footer {
   text-align: center;
   font-size: 13px;
